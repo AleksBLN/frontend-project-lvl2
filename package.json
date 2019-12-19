@@ -1,0 +1,39 @@
+{
+  "name": "frontend-project-lvl2",
+  "version": "1.0.0",
+  "description": "cli utility",
+  "main": "index.js",
+  "bin": {
+    "gendiff": "dist/bin/gendiff.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksBLN/frontend-project-lvl2.git"
+  },
+  "keywords": [
+    "cli-utility"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksBLN/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/AleksBLN/frontend-project-lvl2#readme",
+  "dependencies": {
+    "commander": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6"
+  }
+}
