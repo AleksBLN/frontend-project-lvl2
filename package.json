@@ -2,7 +2,7 @@
   "name": "frontend-project-lvl2",
   "version": "1.0.0",
   "description": "cli utility",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
     "gendiff": "dist/bin/gendiff.js"
   },
@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/AleksBLN/frontend-project-lvl2#readme",
   "dependencies": {
-    "commander": "^4.0.1"
+    "commander": "^4.0.1",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",

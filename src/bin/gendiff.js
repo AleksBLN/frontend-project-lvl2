@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import commander from 'commander';
+import genDiff from '..';
 
 const program = commander;
 program
@@ -8,9 +9,7 @@ program
   .option('-f, --format [type]', 'Output format')
   .arguments('<pathToFirstFile> <pathToSecondFile>')
   .action((pathToFirstFile, pathToSecondFile) => {
-    const path1 = pathToFirstFile;
-    const path2 = pathToSecondFile;
-    console.log(path1, path2);
+    genDiff(pathToFirstFile, pathToSecondFile);
   });
 
 program.parse(process.argv);
