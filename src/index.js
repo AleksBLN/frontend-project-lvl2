@@ -28,5 +28,6 @@ const genDiff = (path1, path2) => {
   const resultString = differenceStrings.join('\n');
   const result = `{\n${resultString}\n}`;
   console.log(result);
+  return result;
 };
 export default genDiff;
