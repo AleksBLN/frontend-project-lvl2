@@ -6,3 +6,6 @@
 
 Пример сравнения двух файлов в формате JSON:
 [![asciicast](https://asciinema.org/a/jaJNKIfNUncwZNR9IbvUU9DEB.svg)](https://asciinema.org/a/jaJNKIfNUncwZNR9IbvUU9DEB)
+
+Пример сравнения двух файлов в формате ini:
+[![asciicast](https://asciinema.org/a/8TC4fEe247Xvd82VYYV5rDgeb.svg)](https://asciinema.org/a/8TC4fEe247Xvd82VYYV5rDgeb)
